@@ -98,7 +98,7 @@ const showDetails = async (details) => {
                     <p class="py-3">ChipSet :${chipSet}</p>
                     <p class="py-3">Display Size: ${displaySize}</p>
                     <p class="py-3">Memory: ${memory}</p>
-                    <p class="py-3">Storage ${storage}</p>
+                    <p class="py-3">Storage: ${storage}</p>
                     <p class="py-3">Sensor: ${sensors}</p>
                     <div class="modal-action">
                         <form method="dialog">
