@@ -119,7 +119,7 @@ const showDetails = async (details) => {
 const dataLoad = () => {
     const input = document.getElementById('search-btn').value;
     if (input == '') {
-        alert('phone ne name ki tor baba likhbo');
+        alert('Search with any brand name :)');
     }
     else {
 
