@@ -53,21 +53,34 @@
     <!-- main section start here -->
     <main class="min-h-screen">
 
-
+        <!-- search button -->
         <div class="flex mx-3 lg:w-1/3 md:w-1/2 md:mx-auto mt-10 border-2 border-r-0 rounded-xl">
-            <input type="text" placeholder="Search..." class="p-3 w-full rounded-xl outline-none" required />
-            <button
+            <input id="search-btn" type="text" placeholder="Search..." class="p-3 w-full rounded-xl outline-none" />
+            <button onclick="dataLoad()"
                 class="btn btn-info rounded-r-xl rounded-l-none px-5 text-white text-xl content-center">Search</button>
         </div>
 
-        <div id="spinner" class="mx-auto mt-10 h-8 w-8 border-4 border-t-black rounded-full animate-spin"></div>
+        <!-- spinner -->
+        <div id="spinner" class="hidden mx-auto mt-10 h-8 w-8 border-4 border-t-black rounded-full animate-spin"></div>
 
         <!-- phone info container -->
         <section id="phone-container">
 
         </section>
 
+        <!-- show all button -->
+        <div id="show-all-items" class="text-center mt-10 hidden">
+            <button onclick="showAllData()" class="btn btn-primary text-xl font-bold">ShowAll</button>
+        </div>
 
+
+
+        <!-- modal start here -->
+        <div id="modal-container">
+            <!-- Open the modal using ID.showModal() method -->
+            
+        </div>
+        <!-- modal end here -->
 
     </main>
     <!-- main section end here -->
@@ -97,6 +110,7 @@
     </footer>
     <!-- footer section end here -->
 
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
